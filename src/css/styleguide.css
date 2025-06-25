@@ -9,10 +9,11 @@
   flex-direction: column;
   gap: 40px;
   padding: 64px;
-  background-color: #ebf8ed;
 }
 
 .styleguide__content {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
 }
