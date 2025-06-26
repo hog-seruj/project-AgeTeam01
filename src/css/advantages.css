@@ -1,0 +1,70 @@
+.advant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.advant-item {
+  max-width: 288px;
+}
+
+.advant-img {
+  border-radius: 32px;
+  max-width: 288px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.advant-list-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  color: #030a06;
+  margin-bottom: 4px;
+}
+
+.advant-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+}
+
+@media screen and (min-width: 768px) {
+  .advantages {
+    padding: 64px 0 64px 0;
+  }
+  .advant-container {
+    max-width: 704px;
+    text-align: left;
+  }
+
+  .advant-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .advant-img {
+    width: 100%;
+  }
+
+  .advant-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .advant-item.accept {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+}
