@@ -5,7 +5,6 @@
 .hero-flex {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   width: 100%;
   max-width: 288px;
   box-sizing: border-box;
@@ -27,13 +26,14 @@
   margin-bottom: 24px;
   text-align: left;
 }
-a.btn {
+
+.hero a.btn {
   margin: 0;
   width: 100%;
   max-width: 288px;
 }
+
 .hero-par {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
@@ -57,7 +57,6 @@ a.btn {
 
   .hero-flex {
     max-width: 704px;
-    margin: 0 auto;
     padding: 0;
   }
 
