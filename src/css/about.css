@@ -1,14 +1,31 @@
 .about {
-  background-color: #ccc;
-  background-image: url();
+    padding: 64px 0;
+    color: #fff;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/about/about-mob.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  .section-header {
+@media screen and (min-resolution: 2x) {
+    .about {
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url(../img/about/about-mob-2x.jpg);
+    }
+}
+
+.about .section-header {
     text-align: center;
     max-width: 768px;
     margin: 0 auto;
+}
 
-    .section-title {
-      text-align: center;
-    }
-  }
+.about .section-title {
+    text-align: center;
+}
+
+.about-text {
+    max-width: 288px;
 }
