@@ -1,7 +1,17 @@
+.advantages {
+    padding: 0;
+}
+
+
+.advant-title {
+    margin-bottom: 8px;
+}
+
 .advant-list {
   display: grid;
   gap: 48px;
 }
+
 
 .advant-img {
   border-radius: 32px;
@@ -21,6 +31,8 @@
 }
 
 @media screen and (min-width: 768px) {
+
+
   .advant-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
@@ -29,9 +41,37 @@
   .advant-item:nth-child(3n) {
     grid-column: 1/3;
   }
+
+  .advant-text {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+  .advant-img {
+    margin-bottom: 32px;
+  }
+
+  .advant-list-title {
+      margin-bottom: 8px;
+  }
+
+  .advant-item:nth-child(2) .advant-list-title {
+      margin-bottom: 42px; 
+    }
+
+
 }
 
 @media screen and (min-width: 1440px) {
+
+    .advant-container {
+        max-width: 768px;
+    }
+
+    .advant-list-title, .advant-item:nth-child(2) .advant-list-title {
+        margin-bottom: 24px;
+    }
+
   .advant-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
