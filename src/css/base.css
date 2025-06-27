@@ -16,10 +16,6 @@
   --second-family: 'Comfortaa', sans-serif;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   display: flex;
   flex-direction: column;
