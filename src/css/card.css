@@ -1,5 +1,8 @@
 .card-list {
+<<<<<<< HEAD
   justify-content: center;
+=======
+>>>>>>> 7432f11... resolve conflicts
   display: grid;
   gap: 40px;
 }
@@ -9,15 +12,36 @@
   align-content: space-between;
 }
 
+<<<<<<< HEAD
+=======
+.card-text-wrap {
+  width: 288px;
+}
+
+>>>>>>> 7432f11... resolve conflicts
 @media (min-width: 768px) {
   .card-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
+<<<<<<< HEAD
+=======
+
+  .card-text-wrap {
+    width: 340px;
+  }
+>>>>>>> 7432f11... resolve conflicts
 }
 
 @media (min-width: 1440px) {
   .card-list {
     grid-template-columns: repeat(4, 1fr);
   }
+<<<<<<< HEAD
+=======
+
+  .card-text-wrap {
+    width: 310px;
+  }
+>>>>>>> 7432f11... resolve conflicts
 }
