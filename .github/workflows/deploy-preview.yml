@@ -27,10 +27,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist # або ./dist
+          publish_dir: ./dist
           destination_dir: pr-${{ github.event.pull_request.number }}
           keep_files: true
-          publish_branch: gh-pages
+          publish_branch: main # gh-pages
 
       - name: Add PR comment with preview link
         uses: marocchino/sticky-pull-request-comment@v2
