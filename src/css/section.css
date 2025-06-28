@@ -45,3 +45,7 @@
     text-align: center;
   }
 }
+
+.section-header--low {
+  padding-bottom: 0;
+}
