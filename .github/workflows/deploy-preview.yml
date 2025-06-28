@@ -31,4 +31,4 @@ jobs:
         with:
           message: |
             ✅ Preview available at:
-            https://<your-username>.github.io/<repo>/pr-${{ github.event.pull_request.number }}
+            https://hog-seruj.github.io/project-AgeTeam01/pr-${{ github.event.pull_request.number }}
