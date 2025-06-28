@@ -1,47 +1,38 @@
-.card-list {
-<<<<<<< HEAD
-  justify-content: center;
-=======
->>>>>>> 7432f11... resolve conflicts
-  display: grid;
-  gap: 40px;
+.assortment-image {
+  max-width: 340px;
+  height: auto;
+  margin-bottom: 16px;
+  border-radius: 36px;
 }
 
-.card {
-  display: grid;
-  align-content: space-between;
+.card-sub-title {
+  text-align: center;
+  font-size: 18px;
 }
 
-<<<<<<< HEAD
-=======
-.card-text-wrap {
-  width: 288px;
+.card-text {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 
->>>>>>> 7432f11... resolve conflicts
-@media (min-width: 768px) {
-  .card-list {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-  }
-<<<<<<< HEAD
-=======
-
-  .card-text-wrap {
-    width: 340px;
-  }
->>>>>>> 7432f11... resolve conflicts
+.card-price {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
-@media (min-width: 1440px) {
-  .card-list {
-    grid-template-columns: repeat(4, 1fr);
-  }
-<<<<<<< HEAD
-=======
+.scroll-btn {
+  color: #030a06;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+}
 
-  .card-text-wrap {
-    width: 310px;
+@media screen and (min-width: 768px) {
+  .scroll-btn.btn {
+    max-width: 100%;
+    height: 40px;
   }
->>>>>>> 7432f11... resolve conflicts
 }
