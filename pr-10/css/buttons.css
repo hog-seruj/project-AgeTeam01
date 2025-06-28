@@ -1,0 +1,55 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 8px;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 12px 24px;
+  min-width: 98px;
+  background: #030a06;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #fff;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+
+  &:active {
+    background: #113916;
+    border-color: #113916;
+    opacity: 0.6;
+  }
+
+  &:disabled,
+  &[disabled] {
+    opacity: 0.2;
+  }
+}
+
+.btn-secondary {
+  color: #030a06;
+
+  &,
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.btn-link {
+  color: #030a06;
+  border: none;
+
+  &,
+  &:active {
+    background-color: transparent;
+  }
+}
+
+.btn-small {
+  padding: 8px 20px;
+}

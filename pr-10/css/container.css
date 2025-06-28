@@ -1,0 +1,29 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+.container-narrow {
+  max-width: 296px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 588px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    max-width: 1160px;
+  }
+}
