@@ -70,4 +70,13 @@
       }
     }
   }
+
+  &::after {
+    content: 'GH page text';
+    display: block;
+    color: red;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: blue;
+  }
 }
