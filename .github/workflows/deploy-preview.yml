@@ -12,10 +12,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install and build 🔧
-        run: |
-          npm install
-          npm run build
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build project
+        run: yarn build
 
       - name: Deploy to gh-pages/pr-<PR_NUMBER>
         uses: peaceiris/actions-gh-pages@v4
