@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoTote</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="./index.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/styles-CMwpJyJm.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav-header">
+      <a class="site-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="110" height="46">
+          <use href="./assets/logo-DDOzGP2e.svg"></use>
+        </svg>
+      </a>
+      <ul class="header-list">
+        <li class="header-item"><a class="header-link" href="">Про нас</a></li>
+        <li class="header-item"><a class="header-link" href="">Переваги</a></li>
+        <li class="header-item"><a class="header-link" href="">Асортимент</a></li>
+        <li class="header-item"><a class="header-link" href="">Галерея</a></li>
+        <li class="header-item"><a class="header-link" href="">Відгуки</a></li>
+        <li class="header-item"><a class="header-link" href="">Контакти</a></li>
+      </ul>
+    </nav>
+      <address class="header-contacts">
+        <ul class="address-list">
+          <li class="address-item"><a class="adress-link" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
+          <li class="address-item"><a class="adress-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
+        </ul>
+      </address>
+
+      <button class="burger-btn" type="button"><svg class="burger-icon" width="32" height="32">
+        <use href="../img/sprite.svg#icon-hamburger"></use>
+      </svg></button>
+
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <a class="site-logo" href="./index.html" aria-label="Site logo">
+        <svg class="nav-logo-icon" width="110" height="46">
+          <use href="./assets/logo-DDOzGP2e.svg"></use>
+        </svg>
+      </a>
+          <button class="mobile-menu-cross" type="button">
+            <svg class="mobile-icon-cross" width="15" height="15">
+            <use href="../img/sprite.svg#icon-close"></use>
+          </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="mobile-list">
+              <li class="mobile-item"><a class="mobile-link" href="">Про нас</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Переваги</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Асортимент</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Галерея</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Відгуки</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="">Контакти</a></li>
+            </ul>
+          </nav>
+          <address class="mobile-adress">
+          <ul class="mobile-adress-list">
+            <li class="mobile-address-item"><a class="mobile-adress-link" href="tel:+380999091122">+38 (099) 909 11 22</a></li>
+            <li class="mobile-address-item"><a class="mobile-adress-link" href="mailto:hello@ecotote.com">hello@ecotote.com</a></li>
+          </ul>
+
+          </address>
+        </div>
+      </div>
+
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section class="hero" id="mainHero">
+  <div class="container">
+    <div class="hero-flex">
+      <div class="hero-item">
+        <h1 class="hero-title">EcoTote — Стиль, що не шкодить планеті</h1>
+      </div>
+      <div class="hero-item">
+        <p class="hero-par">
+          Екологічні сумки для тих, хто дбає про майбутнє. Обирайте стиль та
+          відповідальність разом з EcoTote.
+        </p>
+        <a href="#assort" class="btn">Купити зараз</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        srcset="./assets/hero-min-BOjLx4D9.jpg 1x, ./assets/hero-min2-Bq60ljkr.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="./assets/hero-min-tab-q2lhf93w.jpg 1x, ./assets/hero-min-tab2-BDAuQclT.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="./assets/hero-min-mob-Csr__HWL.jpg 1x, ./assets/hero-min-mob2-DDyCaN5X.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        src="./assets/hero-min-BOjLx4D9.jpg"
+        alt="Три стильні екосумки EcoTote"
+        class="hero-image"
+      />
+    </picture>
+  </div>
+</section>
+
+      <section class="section about">
+  <div class="container">
+    <div class="section-header">
+      <b>Природність</b>
+      <h2 class="section-title">Турбота про планету</h2>
+      <p class="about-text">
+        Ми використовуємо органічну бавовну, перероблений пластик, льон та
+        коноплі для наших сумок.
+      </p>
+    </div>
+  </div>
+</section>
+
+      <section class="section">
+  <div class="container">
+    <div class="section-header advant-container">
+      <b>Переваги</b>
+      <h2 class="section-title advant-title">Чому обрати нас?</h2>
+      <p class="advant-text">
+        Наші сумки виготовлені з екологічно чистих матеріалів, що забезпечують
+        стійкість і довговічність. Обираючи EcoTote, ви підтримуєте екологічну
+        відповідальність.
+      </p>
+    </div>
+    <ul class="advant-list">
+      <li class="advant-item">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/advant-desk-1-min-CKfYKfBF.jpg 1x, ./assets/advant-desk-1@2x-min-eOZtJylQ.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/advant-tab-1-min-BoDfn53B.jpg 1x, ./assets/advant-tab-1@2x-min-DkOgr5Eh.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/advant-mob-1-min-DEwK0ysF.jpg 1x, ./assets/advant-mob-1@2x-min-CXE9zMwg.jpg 2x"
+          />
+          <img
+            class="advant-img"
+            src="../img/advantages/advant-mob-1-min.jpg"
+            alt="Натуральний склад"
+          />
+        </picture>
+
+        <h3 class="advant-list-title">Стійкість та екологічність</h3>
+        <p class="advant-list-text">
+          Виготовлені з органічної бавовни та переробленого пластику.
+        </p>
+      </li>
+      <li class="advant-item">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/advant-desk-2-min-2VGCGacc.jpg 1x, ./assets/advant-desk-2@2x-min-ClhscxNZ.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/advant-tab-2-min-Ll3NbTYB.jpg 1x, ./assets/advant-tab-2@2x-min-D1XBT4-t.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/advant-mob-2-min-KUEF9bEN.jpg 1x, ./assets/advant-mob-2@2x-min-D89d2Y6i.jpg 2x"
+          />
+          <img
+            class="advant-img"
+            src="../img/advantages/advant-mob-2-min.jpg"
+            alt="Процес виробництва"
+          />
+        </picture>
+        <h3 class="advant-list-title">Міцність і довговічність</h3>
+        <p class="advant-list-text">
+          Наші сумки мають посилені шви для тривалого використання.
+        </p>
+      </li>
+      <li class="advant-item">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/advant-desk-3-min-CaWH7Eu4.jpg 1x, ./assets/advant-desk-3@2x-min-CJsnp8Nw.jpg 2x"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/advant-tab-3-min-BGboF6d5.jpg 1x, ./assets/advant-tab-3@2x-min-Bmr1MKTJ.jpg 2x"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/advant-mob-3-min-CX_w4Gvz.jpg 1x, ./assets/advant-mob-3@2x-min-mtIcJfrj.jpg 2x"
+          />
+          <img
+            class="advant-img"
+            src="../img/advantages/advant-mob-3-min.jpg"
+            alt="Сумки фірми EcoTote"
+          />
+        </picture>
+        <h3 class="advant-list-title">Стильний та сучасний дизайн</h3>
+        <p class="advant-list-text">
+          Мінімалістичні моделі в обмежених серіях для кожного стилю.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section assortment">
+  <div class="container">
+    <h2 class="section-title assortment-title">Наші сумки</h2>
+    <ul class="card-list">
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-1@2x-min-DbjKaXrq.jpg, ./assets/bag-desk-1-min-Cu_SjXAO.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-1@2x-min-lZSCy1Wr.jpg, ./assets/bag-tab-1-min-C42l33TM.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-1@2x-min-C3dIRQ6z.jpg, ./assets/bag-mob-1-min-QJ2TWLXk.jpg"
+          />
+          <img
+            src="./assets/bag-desk-1-min-Cu_SjXAO.jpg"
+            alt="Стильна та містка сумка-тоут"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoBag Classic</h3>
+        <p class="text card-text">
+          Елегантна та містка сумка для щоденного використання.
+        </p>
+        <p class="price">$25</p>
+        <a href="#contact-us" class="scroll-btn btn-link">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-2@2x-min-KfJEzVtR.jpg, ./assets/bag-desk-2-min-CRi2kn6q.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-2@2x-min-FdeMrUBT.jpg, ./assets/bag-tab-2-min-D0o9q0Ie.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-2@2x-min-8xop9O-z.jpg, ./assets/bag-mob-2-min-Cm1fqPZ3.jpg"
+          />
+          <img
+            src="./assets/bag-desk-2-min-CRi2kn6q.jpg"
+            alt="Міцна сумка для покупок"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoTote Shopper</h3>
+        <p class="text card-text">
+          Ідеальна для покупок, з посиленими ручками.
+        </p>
+        <p class="price">$30</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-3@2x-min-DFGyH2rA.jpg, ./assets/bag-desk-3-min-161Yp-hA.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-3@2x-min-BtC8VgMp.jpg, ./assets/bag-tab-3-min-a2UiBYn2.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-3@2x-min-C-P9w6_H.jpg, ./assets/bag-mob-3-min-ae-PXOdc.jpg"
+          />
+          <img
+            src="./assets/bag-desk-3-min-161Yp-hA.jpg"
+            alt="Сучасний екологічний міський рюкзак"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoBackpack Urban</h3>
+        <p class="text card-text">
+          Зручний рюкзак для міста з відділенням для ноутбука.
+        </p>
+        <p class="price">$45</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-4@2x-min-BVJVwefg.jpg, ./assets/bag-desk-4-min-CrmQ0MZc.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-4@2x-min-CxkJeT8T.jpg, ./assets/bag-tab-4-min-DH80VWJZ.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-4@2x-min-DBGcU58x.jpg, ./assets/bag-mob-4-min-BEV4okye.jpg"
+          />
+          <img
+            src="./assets/bag-desk-4-min-CrmQ0MZc.jpg"
+            alt="Компактна сумка через плече"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoCrossbody Mini</h3>
+        <p class="text card-text">
+          Компактна сумка через плече для найнеобхіднішого.
+        </p>
+        <p class="price">$20</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-5@2x-min-Cdve2rGt.jpg, ./assets/bag-desk-5-min-B1cYyRzf.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-5@2x-min-CMWu1oxd.jpg, ./assets/bag-tab-5-min-B_pffeQB.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-5@2x-min-DdU7MJ5X.jpg, ./assets/bag-mob-5-min-BmGw09iE.jpg"
+          />
+          <img
+            src="./assets/bag-desk-5-min-B1cYyRzf.jpg"
+            alt="Невелика сумка для ланчу"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoLunch Bag</h3>
+        <p class="text card-text">Стильна та практична сумка для обідів.</p>
+        <p class="price">$15</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-6@2x-min-DnM5Wwi2.jpg, ./assets/bag-desk-6-min-vtrD2VMS.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-6@2x-min-fqrzx6Tx.jpg, ./assets/bag-tab-6-min-BsvAx7Kc.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-6@2x-min--PKEdM1G.jpg, ./assets/bag-mob-6-min-BNA8Gv3m.jpg"
+          />
+          <img
+            src="./assets/bag-desk-6-min-vtrD2VMS.jpg"
+            alt="Велика, зручна пляжна сумка-тоут"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoBeach Tote</h3>
+        <p class="text card-text">
+          Велика сумка для пляжних речей з водонепроникною підкладкою.
+        </p>
+        <p class="price">$35</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-7@2x-min-C7sVA8wV.jpg, ./assets/bag-desk-7-min-BMmywQJs.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-7@2x-min-VFGyq9tw.jpg, ./assets/bag-tab-7-min-BhmNCDPZ.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-7@2x-min-_SQZJY5a.jpg, ./assets/bag-mob-7-min-BbgjhiYU.jpg"
+          />
+          <img
+            src="./assets/bag-desk-7-min-BMmywQJs.jpg"
+            alt="Містка дорожня сумка"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoTravel Duffle</h3>
+        <p class="text card-text">
+          Містка дорожня сумка з додатковими кишенями.
+        </p>
+        <p class="price">$60</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+      <li class="card">
+        <picture>
+          <source
+            media="(min-width: 1440px)"
+            srcset="./assets/bag-desk-8@2x-min-CXclv9fa.jpg, ./assets/bag-desk-8-min-qN9EMBos.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/bag-tab-8@2x-min-VTnGepVx.jpg, ./assets/bag-tab-8-min-CKyqaSvn.jpg"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/bag-mob-8@2x-min-Dys72vpU.jpg, ./assets/bag-mob-8-min-C3MRSvhT.jpg"
+          />
+          <img
+            src="./assets/bag-desk-8-min-qN9EMBos.jpg"
+            alt="Екологічний дитячий рюкзак"
+            class="assortment-image"
+          />
+        </picture>
+        <h3 class="sub-title">EcoKids Bag</h3>
+        <p class="text card-text">Яскрава та зручна сумка для дітей.</p>
+        <p class="price">$22</p>
+        <a href="#contact-us" class="scroll-btn">Купити</a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <h2 class="section-title">Галерея зображень</h2>
+      <p>EcoTotes у повсякденному житті</p>
+    </div>
+    <ul class="gallery">
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source media="(min-width: 1440px)" srcset="./assets/eco-tote-ye1MFbl0.jpg 1x, ./assets/eco-tote@2x-CG8Cxuum.jpg 2x"/>
+          <source media="(min-width: 768px)" srcset="./assets/eco-tote-tab-DWe7pN7O.jpg 1x, ./assets/eco-tote-tab@2x-D9Seq_OP.jpg 2x"/>
+          <source media="(max-width: 767px)" srcset="./assets/eco-tote-mob-GmPbDfbA.jpg 1x, ./assets/eco-tote-mob@2x-DiZeaAgK.jpg 2x"/>
+          <img src="./assets/eco-tote-ye1MFbl0.jpg" height="421" width="422" alt="eco-tote"/>
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source media="(min-width: 1440px)" srcset="./assets/city-DZ2yerwy.jpg 1x, ./assets/city@2x-CBjxwRXm.jpg 2x"/>
+          <source media="(min-width: 768px)" srcset="./assets/city-tab-BbKaHrQ_.jpg 1x, ./assets/city-tab@2x-C3_GoZhw.jpg 2x"/>
+          <source media="(max-width: 767px)" srcset="./assets/city-mob-Ddm4r4Fx.jpg 1x, ./assets/city-mob@2x-DqOg90bR.jpg 2x"/>
+          <img src="./assets/city-DZ2yerwy.jpg" height="421" width="422" alt="city"/>
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source media="(min-width: 1440px)" srcset="./assets/person-walking-BaKCtDfI.jpg 1x, ./assets/person-walking@2x-DhRCWQzg.jpg 2x"/>
+          <source media="(min-width: 768px)" srcset="./assets/person-walking-tab-CFTCmKPe.jpg 1x, ./assets/person-walking-tab@2x-BO-bjdHc.jpg 2x"/>
+          <source media="(max-width: 767px)" srcset="./assets/person-walking-mob-BHO0cMEb.jpg 1x, ./assets/person-walking-mob@2x-CCmqpjg_.jpg 2x"/>
+          <img src="./assets/person-walking-BaKCtDfI.jpg" height="421" width="422" alt="person-walking"/>
+        </picture>
+      </li>
+      <li class="gallery-item">
+        <picture class="gallery-picture">
+          <source media="(min-width: 1440px)" srcset="./assets/young-woman-BJxDZo5S.jpg 1x, ./assets/young-woman@2x-BaowvWfQ.jpg 2x"/>
+          <source media="(min-width: 768px)" srcset="./assets/young-woman-tab-DtYg-Lex.jpg 1x, ./assets/young-woman-tab@2x-B844mADL.jpg 2x"/>
+          <source media="(max-width: 767px)" srcset="./assets/young-woman-mob-CIIwjRJm.jpg 1x, ./assets/young-woman-mob@2x-CMkKr_l-.jpg 2x"/>
+          <img src="./assets/young-woman-BJxDZo5S.jpg" height="421" width="422" alt="young-woman"/>
+        </picture>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section">
+  <div class="container">
+    <h2 class="section-title">Що говорять наші клієнти</h2>
+    <ul class="feedbacks-list">
+      <li class="feedbacks-link">
+        <div class="container-feedbacks">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p class="feedbacks-text">Сумка дуже зручна та стильна, використовую щодня!</p>
+          <p class="author">Анна</p>
+        </div>
+      </li>
+      <li class="feedbacks-link">
+        <div class="container-feedbacks">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p class="feedbacks-text">Відмінна якість матеріалів, приємно здивована.</p>
+          <p class="author">Ігор</p>
+        </div>
+      </li>
+      <li class="feedbacks-link">
+        <div class="container-feedbacks">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p class="feedbacks-text">Сумка повністю відповідає опису, рекомендую!</p>
+          <p class="author">Олена</p>
+        </div>
+      </li>
+      <li class="feedbacks-link">
+        <div class="container-feedbacks">
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p class="feedbacks-text">Швидка доставка та гарне обслуговування.</p>
+          <p class="author">Сергій</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section">
+  <div class="container">
+    <div class="support-wrapper">
+      <h2 class="secton-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <p>Ми тут, щоб допомогти!</p>
+
+      <form autocomplete="off">
+        <div class="modal-wrapper">
+          <label class="modal-label" for="user-name">Ім'я</label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Іван"
+            />
+          </div>
+        </div>
+
+        <div class="modal-wrapper">
+          <label class="modal-label" for="email">Електронна пошта</label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="hello@ecotote.com"
+            />
+          </div>
+        </div>
+
+        <div class="modal-wrapper box-comment">
+          <label class="modal-label" for="user-comment">Повідомлення </label>
+          <textarea
+            class="modal-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть своє повідомлення..."
+          ></textarea>
+        </div>
+
+        <button class="modal-submit-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="../img/support/support-desktop-img-min.jpg 1x, ../img/support/support-desktop-img@2x-min.jpg 2x"
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="../img/support/support-tab-img-min.jpg 1x, ../img/support/support-tab-img@2x-min.jpg 2x"
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="../img/support/support-mob-img-min.jpg 1x, ../img/support/support-mob-img@2x-min.jpg 2x"
+      />
+      <img
+        class="support-photo"
+        src="../img/support/support-desktop-img-min.jpg"
+        alt="bag-studio"
+        width="644"
+      />
+    </picture>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-desc-container-top">
+      <a class="footer-networks-link" href="./index.html">
+        <svg
+          class="footer-logo"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 112 48"
+        >
+          <path
+            d="M19.5,3.3c-0.2,0-0.4,0-0.6,0c-2.5,0.2-4.7,1.2-6.3,3.1c-1.7,2.1-2.2,4.2-2.1,6.9l-4.7,0
+        c-0.2,0-0.4,0-0.6,0c-0.6,0-1.2,0-1.8,0.1c-0.3,0.1-0.6,0.2-0.9,0.5C2,14.4,2,14.9,2,15.5c0,0.9,0.1,1.8,0.2,2.7
+        c0,0.5,0.1,1,0.1,1.5l0.8,10l0.4,4.8c0,0.2,0,0.5,0,0.7c0.1,0.9,0.1,1.7,0.3,2.6c0.7,2.7,2.9,4.8,5.6,5.4c1,0.3,2.3,0.2,3.4,0.2
+        c0.3,0,0.7,0,1,0l6.3,0l5.5,0c0.3,0,0.6,0,0.9,0c1,0,2.1,0,3-0.2c1.3-0.3,2.7-1,3.7-2c0.9-0.9,1.6-2.1,1.9-3.3c0.2-1,0.3-2,0.4-3
+        c0-0.3,0-0.6,0.1-1l0.5-6.6l0.6-8.2c0-0.4,0.1-0.8,0.1-1.2c0.1-0.9,0.2-1.8,0.2-2.6c0-0.5-0.1-1-0.5-1.4c-0.3-0.3-0.7-0.4-1.1-0.5
+        c-0.5-0.1-1.2-0.1-1.7-0.1c-0.2,0-0.4,0-0.6,0c-1.5,0-2.9,0-4.4,0h-0.1c0-2.8-0.6-5.2-2.6-7.3C24.3,4.3,22,3.3,19.5,3.3L19.5,3.3
+        L19.5,3.3z M28.5,19.4L28.5,19.4L28.5,19.4C28.5,19.4,28.6,19.4,28.5,19.4l0.1,0.1c0,0,0,0,0,0.1c0,3.5-1,7.9-3.4,10.4
+        c-2.3,2.3-5.8,3.5-9,3.6c1.5-2.8,3.9-5.5,6.4-7.5c0.4-0.3,0.8-0.6,1.2-0.9c0.3-0.2,0.5-0.4,0.8-0.5c0.2-0.2,0.6-0.4,0.6-0.8
+        c0-0.3-0.1-0.5-0.3-0.8C24.5,23,24.3,22.9,24,23c-0.4,0.1-0.9,0.4-1.3,0.7c-0.1,0.1-0.2,0.2-0.3,0.2c-3.2,2.3-5.8,5.2-7.7,8.6
+        c-0.1-2.8,0.6-5.1,2.3-7.3C19.5,21.9,24.4,20,28.5,19.4z M3.8,15.1h31.6c-0.1,1.1-0.2,2.1-0.3,3.2c0,0.6-0.1,1.2-0.1,1.8l-0.8,10.7
+        l-0.3,3.9l0,0.5c-0.1,0.7-0.1,1.4-0.2,2c-0.1,0.7-0.4,1.3-0.7,1.9c-0.1,0.2-0.3,0.4-0.4,0.6c-0.9,1.1-2.4,1.9-3.8,2
+        c-0.8,0.1-1.6,0-2.4,0c-0.3,0-0.7,0-1,0l-6.6,0l-5.2,0c-0.3,0-0.5,0-0.8,0c-0.8,0-1.6,0-2.4-0.1c-1-0.2-1.9-0.6-2.7-1.3
+        c-0.9-0.8-1.6-1.8-1.9-3c-0.2-0.8-0.3-1.6-0.3-2.4c0-0.2,0-0.4,0-0.6l-0.3-4C4.9,30.4,3.8,15.1,3.8,15.1z M29.2,17.5L29.2,17.5
+        c-4.8,0.6-10.3,2.5-13.4,6.4c-2,2.5-3.1,5.7-2.7,8.9c0.1,0.7,0.2,1.4,0.5,2l-0.1,0.2c-0.4,1-1.3,3.3-1,4c0.1,0.2,0.3,0.3,0.5,0.4
+        c0.1,0,0.2,0,0.3,0.1c0.3,0,0.5-0.1,0.7-0.3c0.2-0.3,0.4-0.9,0.5-1.4c0.1-0.3,0.1-0.5,0.2-0.6c0.2-0.6,0.4-1.1,0.6-1.7l0,0l0.1-0.2
+        c4,0,8.2-1.2,11-4c3.2-3.2,4-8.2,4-12.6c0-0.3,0-0.7-0.3-1c-0.2-0.2-0.4-0.2-0.6-0.2C29.4,17.5,29.3,17.5,29.2,17.5L29.2,17.5z
+         M19.2,5.1c0.2,0,0.3,0,0.5,0c1.9,0,3.8,0.9,5.1,2.2c1.8,1.8,2.2,3.7,2.2,6.2l-6.9,0l-7.7,0c-0.1-2.1,0.3-4,1.7-5.7
+        C15.2,6.1,17.1,5.2,19.2,5.1L19.2,5.1z M28.5,19.4L28.5,19.4c-4.1,0.5-9,2.5-11.6,5.8c-1.7,2.2-2.3,4.5-2.3,7.3
+        c1.9-3.4,4.6-6.3,7.7-8.6c0.1-0.1,0.2-0.1,0.3-0.2c0.4-0.3,0.8-0.6,1.3-0.7c0.3-0.1,0.5,0,0.8,0.1c0.2,0.2,0.4,0.5,0.3,0.8
+        c0,0.3-0.4,0.6-0.6,0.8c-0.3,0.2-0.5,0.4-0.8,0.5c-0.4,0.3-0.8,0.6-1.2,0.9c-2.5,2-4.9,4.7-6.4,7.5c3.2-0.1,6.7-1.2,9-3.6
+        c2.5-2.5,3.4-7,3.4-10.4C28.6,19.5,28.6,19.5,28.5,19.4C28.6,19.4,28.6,19.4,28.5,19.4L28.5,19.4z M29.1,17.6L29.1,17.6
+        c0.1,0,0.2,0,0.3,0c0.2,0,0.4,0,0.6,0.2c0.2,0.3,0.3,0.7,0.3,1c0,4.3-0.8,9.4-4,12.6c-2.9,2.8-7.1,4.1-11,4l-0.1,0.2l0,0
+        c-0.2,0.5-0.4,1.1-0.6,1.7c-0.1,0.2-0.1,0.4-0.2,0.6c-0.2,0.5-0.3,1.2-0.5,1.4c-0.2,0.2-0.4,0.3-0.7,0.3c-0.1,0-0.2,0-0.3-0.1
+        c-0.2-0.1-0.4-0.2-0.5-0.4c-0.3-0.7,0.6-3,1-4l0.1-0.2c-0.2-0.7-0.4-1.3-0.5-2c-0.4-3.2,0.7-6.4,2.7-8.9
+        C18.9,20.1,24.3,18.1,29.1,17.6z M29.2,17.5L29.2,17.5c-4.8,0.6-10.3,2.5-13.4,6.4c-2,2.5-3.1,5.7-2.7,8.9c0.1,0.7,0.2,1.4,0.5,2
+        l-0.1,0.2c-0.4,1-1.3,3.3-1,4c0.1,0.2,0.3,0.3,0.5,0.4c0.1,0,0.2,0,0.3,0.1c0.3,0,0.5-0.1,0.7-0.3c0.2-0.3,0.4-0.9,0.5-1.4
+        c0.1-0.3,0.1-0.5,0.2-0.6c0.2-0.6,0.4-1.1,0.6-1.7l0,0l0.1-0.2c4,0,8.2-1.2,11-4c3.2-3.2,4-8.2,4-12.6c0-0.3,0-0.7-0.3-1
+        c-0.2-0.2-0.4-0.2-0.6-0.2C29.4,17.5,29.3,17.5,29.2,17.5z M28.5,19.4L28.5,19.4C28.5,19.4,28.5,19.4,28.5,19.4l0.1,0.1
+        c0,0,0,0,0,0.1c0,3.5-1,7.9-3.4,10.4c-2.3,2.3-5.8,3.5-9,3.6c1.5-2.8,3.9-5.5,6.4-7.5c0.4-0.3,0.8-0.6,1.2-0.9
+        c0.3-0.2,0.5-0.4,0.8-0.5c0.2-0.2,0.6-0.4,0.6-0.8c0-0.3-0.1-0.5-0.3-0.8C24.5,23,24.3,22.9,24,23c-0.4,0.1-0.9,0.4-1.3,0.7
+        c-0.1,0.1-0.2,0.2-0.3,0.2c-3.2,2.3-5.8,5.2-7.7,8.6c-0.1-2.8,0.6-5.1,2.3-7.3C19.5,21.9,24.4,20,28.5,19.4L28.5,19.4z M90.9,29.3
+        c-0.1-3.4-3-6.1-6.4-5.9c-3.4,0.1-6.1,3-5.9,6.4c0.1,3.4,3,6.1,6.4,5.9S91,32.7,90.9,29.3L90.9,29.3z M84.7,25.2
+        c1,0,1.8,0.3,2.5,0.9c0.9,0.8,1.4,1.9,1.5,3.1s-0.3,2.4-1.1,3.3c-0.7,0.8-1.7,1.2-2.8,1.2c-1,0-1.8-0.2-2.6-0.8
+        c-0.9-0.8-1.4-1.9-1.5-3.1c-0.1-1.2,0.2-2.5,1-3.4C82.6,25.6,83.5,25.3,84.7,25.2z M73.8,28.7c-0.4-3.4-3.5-5.8-6.8-5.4
+        c-3.4,0.4-5.8,3.5-5.4,6.8s3.5,5.8,6.8,5.4C71.8,35.2,74.2,32.1,73.8,28.7L73.8,28.7z M67.1,25.2c1-0.1,1.9,0,2.7,0.6
+        c0.9,0.6,1.5,1.6,1.7,2.7c0.2,1.3,0,2.6-0.7,3.7c-0.7,0.9-1.5,1.4-2.6,1.5c-1,0.1-1.9,0-2.7-0.6c-0.9-0.6-1.5-1.6-1.7-2.7
+        c-0.2-1.2,0-2.6,0.8-3.6C65.2,25.9,66.1,25.4,67.1,25.2L67.1,25.2z M103.8,23.3C103.7,23.3,103.7,23.3,103.8,23.3
+        c-1.6,0.2-3,0.9-4,2.2c-1.1,1.4-1.5,3.2-1.3,4.9c0.2,1.5,1,3,2.2,3.9c1.5,1.1,3.3,1.4,5.1,1.2c1-0.1,2.6-0.6,3.3-1.5
+        c0.2-0.2,0.3-0.5,0.2-0.8c0-0.2-0.1-0.4-0.3-0.6c-0.2-0.2-0.5-0.2-0.7-0.1c-0.3,0.1-0.6,0.3-0.9,0.5c-0.1,0-0.1,0.1-0.2,0.1
+        c-1.3,0.7-2.6,1-4,0.5c-1-0.3-1.8-1-2.2-2c-0.2-0.5-0.4-1-0.5-1.5h5.9c0.2,0,0.5,0,0.8,0c0.7,0,1.5,0,2.1-0.1c0.2,0,0.3-0.1,0.5-0.2
+        c0.3-0.3,0.3-0.7,0.3-1.1c0-1.5-0.7-2.9-1.8-3.9C106.9,23.7,105.4,23.2,103.8,23.3z M104,25.2c0.9-0.1,1.8,0.1,2.5,0.6
+        c0.9,0.6,1.3,1.5,1.5,2.6c-0.7,0-1.5,0-2.2,0l-1.1,0l-4.2,0c0.2-0.6,0.4-1.2,0.8-1.8C102,25.8,102.9,25.3,104,25.2z M70.9,18.9
+        c2.2-0.1,4.4,0,6.7,0c1.3,0,2.9-0.1,4.1,0c0.2,0,0.4,0.1,0.5,0.2c0.2,0.2,0.4,0.5,0.4,0.8c0,0.3-0.2,0.6-0.3,0.7
+        c-0.1,0.1-0.3,0.2-0.5,0.2c-0.5,0.1-1.1,0-1.6,0l-2.8,0l0,10.2c0,0.9,0.1,2.7,0,3.5c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.4,0.3-0.7,0.3
+        c-0.3,0-0.5-0.1-0.7-0.2c-0.2-0.2-0.3-0.6-0.3-0.9c-0.1-0.6,0-1.2,0-1.7c0-0.8,0-1.7,0-2.5l0-9.2c-0.9,0-4.1,0.1-4.7-0.1
+        c-0.2-0.1-0.4-0.3-0.5-0.5c-0.1-0.3-0.1-0.5,0.1-0.8C70.4,19.1,70.6,19,70.9,18.9L70.9,18.9z M56.3,23.3c0.8,0,1.6,0,2.4,0.2
+        c0.8,0.2,2.1,0.7,2.6,1.5c0.1,0.2,0.2,0.5,0.1,0.7c-0.1,0.2-0.3,0.4-0.6,0.5c-0.7,0.3-1.6-0.7-2.2-0.9c-1.1-0.4-2.3-0.4-3.4,0.1
+        c-1,0.4-1.6,1.3-2,2.3c-0.4,1.1-0.4,2.6,0.1,3.7c0.5,1,1.4,1.7,2.4,2.1c1.2,0.4,2.5,0.2,3.6-0.3c0.3-0.2,0.7-0.4,1.1-0.5
+        c0.2,0,0.4,0,0.6,0.1c0.2,0.2,0.4,0.4,0.4,0.7c0,0.2-0.1,0.5-0.2,0.7c-0.7,0.8-2.1,1.2-3.1,1.4c-1.7,0.2-3.5-0.1-4.9-1.2
+        c-1.3-1-2.1-2.5-2.3-4.2c-0.2-1.6,0.3-3.3,1.3-4.6C53.2,24.3,54.7,23.5,56.3,23.3z M93.4,20.2l0.1,0c0.3,0,0.6,0.1,0.8,0.3
+        c0.5,0.5,0.3,2.4,0.3,3.1c0.7,0,2.4-0.2,3,0.3c0.2,0.2,0.3,0.4,0.3,0.7c0,0.2-0.1,0.5-0.2,0.6c-0.5,0.5-2.3,0.3-3,0.3
+        c0,1.5-0.2,6.1,0.3,7.3c0.7,1.8,2.4,0.2,3.3,0.7c0.2,0.1,0.4,0.3,0.4,0.5c0.1,0.3,0,0.6-0.1,0.8l-0.1,0.1c-0.6,0.6-1.6,0.7-2.4,0.7
+        c-0.9,0-1.7-0.1-2.4-0.8c-0.5-0.5-0.8-1.1-0.9-1.8c-0.2-1-0.1-2.1-0.1-3.2l0-4.3c-0.5,0-1.1,0-1.6,0c-0.1-0.1-0.2-0.1-0.3-0.2
+        c-0.2-0.2-0.3-0.5-0.3-0.8c0-0.2,0.1-0.5,0.2-0.6c0.4-0.4,1.4-0.3,2-0.2c0-0.8-0.2-2.2,0.1-2.9C92.9,20.5,93.1,20.3,93.4,20.2z
+         M50.4,19.9c-0.9-0.1-5.5-0.1-7.1,0c-0.3,0-0.6,0-0.8,0c-0.2,0-0.4,0-0.5,0c0,0-0.6,0.1-0.8,0.4c-0.1,0.2-0.2,0.4-0.2,0.6
+        c-0.2,1.2-0.3,2.4-0.4,3.6c-0.1,0.6-0.1,1.3-0.2,1.9l-0.6,6.1c0,0.2,0,0.4-0.1,0.6c-0.1,0.8-0.2,1.9-0.2,2.4c0,0.2,0.2,0.5,0.4,0.6
+        c0.2,0.1,0.5,0.2,0.7,0.2h0c0.5,0,1.3,0,2.1,0c1.8,0,6.3,0,7.4,0c0.2,0,0.4,0,0.6-0.1c0.3-0.1,0.5-0.3,0.6-0.6
+        c0.1-0.3,0.1-0.6,0-0.8c-0.1-0.2-0.3-0.4-0.6-0.5h-9.1c0.2-1.3,0.3-2.7,0.4-4l0.1-1.1l0-0.1c0.1,0,0.2,0,0.3,0c0.9,0,5.4,0,6,0
+        c0.2,0,0.4-0.1,0.6-0.2c0.2-0.2,0.3-0.5,0.3-0.8c0-0.2-0.1-0.5-0.3-0.7c-0.1-0.1-0.3-0.2-0.4-0.2c-0.5-0.1-4.6-0.1-5.6,0
+        c-0.3,0-0.5,0-0.6,0l0.5-5.4h4.9c0.2,0,0.5,0,0.8,0c0.6,0,1.3,0,1.9-0.1c0.2,0,0.4-0.1,0.5-0.3c0.2-0.2,0.3-0.5,0.3-0.7
+        C51.2,20.3,50.9,20,50.4,19.9L50.4,19.9z"
+          />
+        </svg>
+      </a>
+
+      <ul class="footer-nav-list">
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Про нас</a>
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Переваги</a>
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Асортимент</a>
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Галерея</a>
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Відгуки</a>
+        </li>
+        <li class="footer-nav-list-item">
+          <a href="" class="footer-nav-element">Контакти</a>
+        </li>
+      </ul>
+
+      <ul class="footer-networks-list">
+        <li class="footer-networks-icon">
+          <a
+            class="footer-networks-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <svg class="footer-networks-item" height="32" width="32">
+              <use href="./assets/sprite-CaIy-0G1.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-networks-icon">
+          <a
+            class="footer-networks-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+          >
+            <svg class="footer-networks-item" height="32" width="32">
+              <use href="./assets/sprite-CaIy-0G1.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-networks-icon">
+          <a
+            class="footer-networks-link"
+            href="https://www.youtube.com/"
+            target="_blank"
+          >
+            <svg class="footer-networks-item" height="32" width="32">
+              <use href="./assets/sprite-CaIy-0G1.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <address class="footer-contact-info">
+      <ul class="footer-adress-list">
+        <li class="footer-adress-item">
+          <a href="tel:+38 (099) 909 11 22" class="footer-adress-element"
+            >+38 (099) 909 11 22</a
+          >
+        </li>
+        <li class="footer-adress-item">
+          <a href="mailto:hello@ecotote.com" class="footer-adress-element"
+            >hello@ecotote.com</a
+          >
+        </li>
+      </ul>
+    </address>
+
+    <p class="footer-desc">© 2025 EcoTote. Всі права захищені.</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
