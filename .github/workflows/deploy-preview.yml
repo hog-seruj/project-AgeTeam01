@@ -21,7 +21,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./src # або ./dist
+          publish_dir: ./dist # або ./dist
           destination_dir: pr-${{ github.event.pull_request.number }}
           keep_files: true
           publish_branch: gh-pages
