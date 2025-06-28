@@ -31,10 +31,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .card-list {
-    gap: 24px;
-  }
-
   .assortment-image {
     width: 340px;
   }
