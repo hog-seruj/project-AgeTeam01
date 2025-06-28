@@ -1,18 +1,13 @@
-.section {
-}
-.container {
-}
-.card-text {
-}
-.scroll-btn {
-}
-.btn {
+.assortment-title {
+  margin-bottom: 32px;
 }
 
-.assortment {
+.section {
   padding: 32px 0;
 }
+
 .section-title {
+  font-family: 'Comfortaa', sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -21,39 +16,85 @@
   color: #030a06;
 }
 
-.assortment-title {
-  margin-bottom: 32px;
-}
 .card-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
-.card {
+
+/* .card {
   width: 288px;
-}
+} */
+
 .assortment-image {
+  width: 288px;
+  height: auto;
   margin-bottom: 16px;
   border-radius: 32px;
 }
-.sub-title {
+
+.card-text-wrap {
+  width: 288px;
+}
+
+.card-sub-title {
   text-align: center;
   line-height: 1.6;
   font-weight: 600;
   font-size: 18px;
 }
-.text {
+
+.card-text {
   font-size: 14px;
   line-height: 1.6;
   text-align: center;
   color: #030a06;
   margin-bottom: 8px;
 }
-.price {
+
+.card-price {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.6;
   text-align: center;
   color: #030a06;
   margin-bottom: 16px;
+}
+
+.scroll-btn {
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 8px 20px;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  display: inline-block;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .card-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .assortment-image {
+    width: 340px;
+  }
+
+  .card {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .card-text-wrap {
+    width: 340px;
+  }
 }
