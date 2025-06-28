@@ -1,0 +1,23 @@
+.styleguide__content {
+  justify-content: center;
+  gap: 24px;
+}
+.support-wrapper {
+}
+.modal-wrapper {
+}
+.modal-label {
+}
+.modal-field {
+}
+.modal-input {
+}
+.box-comment {
+}
+.modal-textarea {
+}
+.modal-submit-btn {
+}
+.support-photo {
+  border-radius: 40px;
+}
