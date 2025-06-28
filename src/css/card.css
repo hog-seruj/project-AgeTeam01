@@ -1,0 +1,34 @@
+.card-list {
+  display: grid;
+  gap: 40px;
+}
+
+.card {
+  display: grid;
+  align-content: space-between;
+}
+
+.card-text-wrap {
+  width: 288px;
+}
+
+@media (min-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .card-text-wrap {
+    width: 340px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .card-text-wrap {
+    width: 310px;
+  }
+}
