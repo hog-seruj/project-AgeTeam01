@@ -30,7 +30,7 @@ jobs:
           publish_dir: ./dist
           destination_dir: pr-${{ github.event.pull_request.number }}
           keep_files: true
-          publish_branch: gh-pages 
+          publish_branch: gh-pages
 
       - name: Add PR comment with preview link
         uses: marocchino/sticky-pull-request-comment@v2
