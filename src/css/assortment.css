@@ -31,30 +31,8 @@
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< HEAD
   .scroll-btn.btn {
     max-width: 100%;
     height: 40px;
   }
 }
-=======
-  .card-list {
-    gap: 24px;
-  }
-
-  .assortment-image {
-    width: 340px;
-  }
-
-  .scroll-btn.btn {
-    max-width: 100%;
-    height: 40px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .assortment-image {
-    width: 310px;
-  }
-}
->>>>>>> 91ec5fd... Fix code after merge

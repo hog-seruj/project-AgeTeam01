@@ -1,38 +1,23 @@
-.assortment-image {
-  max-width: 340px;
-  height: auto;
-  margin-bottom: 16px;
-  border-radius: 36px;
+.card-list {
+  justify-content: center;
+  display: grid;
+  gap: 40px;
 }
 
-.card-sub-title {
-  text-align: center;
-  font-size: 18px;
+.card {
+  display: grid;
+  align-content: space-between;
 }
 
-.card-text {
-  font-size: 14px;
-  text-align: center;
-  margin-bottom: 8px;
+@media (min-width: 768px) {
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
 }
 
-.card-price {
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 16px;
-}
-
-.scroll-btn {
-  color: #030a06;
-  width: 100%;
-  height: 40px;
-  background-color: transparent;
-}
-
-@media screen and (min-width: 768px) {
-  .scroll-btn.btn {
-    max-width: 100%;
-    height: 40px;
+@media (min-width: 1440px) {
+  .card-list {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
