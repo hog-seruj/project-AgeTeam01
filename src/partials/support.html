@@ -1,5 +1,79 @@
 <section id="support" class="section">
   <div class="container">
-    <h2 class="section-title">support</h2>
+    <div class="support-wrapper">
+      <h2 class="secton-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <p>Ми тут, щоб допомогти!</p>
+
+      <form autocomplete="off">
+        <div class="modal-wrapper">
+          <label class="modal-label" for="user-name">Ім'я</label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              placeholder="Іван"
+            />
+          </div>
+        </div>
+
+        <div class="modal-wrapper">
+          <label class="modal-label" for="email">Електронна пошта</label>
+          <div class="modal-field">
+            <input
+              class="modal-input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="hello@ecotote.com"
+            />
+          </div>
+        </div>
+
+        <div class="modal-wrapper box-comment">
+          <label class="modal-label" for="user-comment">Повідомлення </label>
+          <textarea
+            class="modal-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Введіть своє повідомлення..."
+          ></textarea>
+        </div>
+
+        <button class="modal-submit-btn" type="submit">Надіслати</button>
+      </form>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/support/support-desktop-img-min.jpg    1x,
+          ./img/support/support-desktop-img@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/support/support-tab-img-min.jpg    1x,
+          ./img/support/support-tab-img@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/support/support-mob-img-min.jpg    1x,
+          ./img/support/support-mob-img@2x-min.jpg 2x
+        "
+      />
+      <img
+        class="support-photo"
+        src="./img/support/support-desktop-img-min.jpg"
+        alt="bag-studio"
+        width="644"
+      />
+    </picture>
   </div>
 </section>
