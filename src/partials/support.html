@@ -14,6 +14,9 @@
               id="user-name"
               name="user-name"
               placeholder="Іван"
+              required
+              minlength="5"
+              maxlength="64"
             />
           </div>
         </div>
@@ -27,6 +30,8 @@
               id="email"
               name="email"
               placeholder="hello@ecotote.com"
+              required
+              pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
             />
           </div>
         </div>
@@ -37,6 +42,7 @@
             class="modal-textarea"
             name="user-comment"
             id="user-comment"
+            maxlength="500"
             placeholder="Введіть своє повідомлення..."
           ></textarea>
         </div>
