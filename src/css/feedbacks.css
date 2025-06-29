@@ -1,7 +1,6 @@
 .feedbacks-list {
     display: flex;
     align-items: center;
-    text-align: left;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -16,21 +15,35 @@
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0.01em;
-    color: var(--color-scheme-1-text);
+    color: #030A06;
+    padding-top: 24px;
+    padding-bottom: 2px;
 }
 
 .author {
     font-weight: 600;
     font-size: 16px;
     line-height: 160%;
-    color: var(--color-scheme-1-text);
+    color: #030A06;
+}
+
+.stars {
+    display: flex;
+}
+
+.icons-feedbacks {
+    fill: #75D281;
+}
+
+.icons-feedbacks-negative {
+    fill: #030A06;
 }
 
 @media screen and (min-width: 768px) {
     .feedbacks-list {
         display: flex;
         align-items: center;
-        text-align: left;
+        align-items: flex-start;
         flex-wrap: wrap;
         gap: 32px 24px;
     }
@@ -45,7 +58,7 @@
     .feedbacks-list {
         display: flex;
         align-items: center;
-        text-align: left;
+        align-items: flex-start;
         flex-wrap: wrap;
         gap: 24px;
     }
