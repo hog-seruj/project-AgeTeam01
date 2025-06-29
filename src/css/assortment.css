@@ -1,5 +1,5 @@
 .assortment-image {
-  width: 288px;
+  max-width: 340px;
   height: auto;
   margin-bottom: 16px;
   border-radius: 32px;
@@ -31,18 +31,8 @@
 }
 
 @media screen and (min-width: 768px) {
-  .assortment-image {
-    width: 340px;
-  }
-
   .scroll-btn.btn {
     max-width: 100%;
     height: 40px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .assortment-image {
-    width: 310px;
   }
 }
