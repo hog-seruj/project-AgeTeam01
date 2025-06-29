@@ -18,6 +18,7 @@
     color: #030A06;
     padding-top: 24px;
     padding-bottom: 24px;
+
 }
 
 .author {
@@ -27,16 +28,18 @@
     color: #030A06;
 }
 
+
 .container-feedbacks {
     display: block;
 }
+
 
 .stars {
     display: flex;
 }
 
 .icons-feedbacks {
-    fill: #3AC04C;
+    fill: #75D281;
 }
 
 .icons-feedbacks-negative {
