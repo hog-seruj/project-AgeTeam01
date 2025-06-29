@@ -16,6 +16,10 @@
   --second-family: 'Comfortaa', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -117,7 +121,3 @@ address {
   overflow: hidden;
 }
 
-.site-logo {
-padding-top: 14px;
-padding-left: 20px;
-}
