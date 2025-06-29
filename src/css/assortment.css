@@ -6,7 +6,7 @@
   overflow: hidden;
 }
 
-img {
+.assortment-image img {
   object-fit: cover;
   transition: var(--transition);
 
