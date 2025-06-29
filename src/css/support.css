@@ -46,11 +46,6 @@
   color: rgba(3, 10, 6, 0.6);
 }
 
-.modal-input:invalid { 
-  1px solid #d64040;
-
-}
-
 .modal-textarea {
   resize: none;
   border: 1px solid rgba(3, 10, 6, 0.15);
