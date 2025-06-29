@@ -3,17 +3,6 @@
   height: auto;
   margin-bottom: 16px;
   border-radius: 32px;
-  overflow: hidden;
-}
-
-.assortment-image img {
-  object-fit: cover;
-  transition: var(--transition);
-
-  &:hover,
-  &:focus {
-    transform: scale(1.1);
-  }
 }
 
 .card-sub-title {
