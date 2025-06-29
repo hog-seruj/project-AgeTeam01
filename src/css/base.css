@@ -116,3 +116,8 @@ address {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.site-logo {
+padding-top: 14px;
+padding-left: 20px;
+}
