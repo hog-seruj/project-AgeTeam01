@@ -46,6 +46,42 @@
   color: rgba(3, 10, 6, 0.6);
 }
 
+input:valid {
+  border-color: rgba(3, 10, 6, 0.15);
+}
+
+input:invalid {
+  border-color: #d64040;
+  color: #d64040;
+}
+
+input:required {
+  border-color: rgba(3, 10, 6, 0.15);
+}
+
+.modal-field {
+  position: relative;
+
+  .error-message {
+    position: absolute;
+    bottom: -1.5em; /* Размещаем под полем */
+    left: 0;
+    font-size: 12px;
+    color: #d64040;
+
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition);
+  }
+
+  input:invalid + .error-message {
+    opacity: 1;
+    visibility: visible;
+    display: inline-block;
+  }
+}
+
 .modal-textarea {
   resize: none;
   border: 1px solid rgba(3, 10, 6, 0.15);
@@ -58,7 +94,6 @@
   height: 180px;
   background-color: rgba(3, 10, 6, 0.05);
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .support-wrapper .btn {
@@ -69,5 +104,52 @@
   text-align: center;
 }
 .support-photo {
-  border-radius: 40px;
+  border-radius: 61px;
+}
+
+@media screen and (min-width: 768px) {
+  .support-wrapper .section-title {
+    max-width: 468px;
+  }
+  .modal-input {
+    width: 704px;
+  }
+
+  .modal-textarea {
+    width: 704px;
+  }
+
+  .support-wrapper .btn {
+    margin-right: auto;
+    margin-left: 0;
+    width: 100%;
+    min-width: 249px;
+  }
+  .support-photo {
+    border-radius: 40px;
+    min-width: 704px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .support-wrapper .section-title {
+    max-width: 644px;
+  }
+  .modal-input {
+    width: 644px;
+  }
+  .modal-textarea {
+    width: 644px;
+  }
+  .support-wrapper .btn {
+    margin-right: auto;
+    margin-left: 0;
+    width: 100%;
+    min-width: 149px;
+  }
+
+  .support-photo {
+    border-radius: 40px;
+    max-width: 644px;
+  }
 }
