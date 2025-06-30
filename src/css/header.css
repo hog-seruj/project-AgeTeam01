@@ -18,6 +18,10 @@
   display: none;
 }
 
+.burger-btn-tab {
+    display: none;
+  }
+
 .burger-btn {
   display: flex;
   align-items: center;
@@ -112,6 +116,25 @@
     margin-top: auto;
     margin-bottom: 128px;
   }
+
+  .burger-btn {
+    display: none;
+  }
+
+  .burger-btn-tab {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 20px 0;
+  transition: var(--transition);
+
+  &:hover,
+  &:focus-visible {
+    transform: rotate(180deg) scale(0.8);
+  }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -154,6 +177,10 @@
   }
 
   .burger-btn {
+    display: none;
+  }
+
+  .burger-btn-tab{
     display: none;
   }
 
