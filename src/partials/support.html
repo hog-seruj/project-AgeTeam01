@@ -4,45 +4,87 @@
       <h2 class="secton-title">Залишились питання? Зв'яжіться з нами!</h2>
       <p>Ми тут, щоб допомогти!</p>
 
-      <form autocomplete="off">
-        <div class="modal-wrapper">
-          <label class="modal-label" for="user-name">Ім'я</label>
-          <div class="modal-field">
-            <input
-              class="modal-input"
-              type="text"
-              id="user-name"
-              name="user-name"
-              placeholder="Іван"
-            />
+        <form autocomplete="off">
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user-name">Ім'я</label>
+            <div class="modal-field">
+              <input
+                class="modal-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                placeholder="Іван"
+                required
+                minlength="5"
+                maxlength="64"
+              />
+
+              <div class="error-message">Error text</div>
+            </div>
           </div>
-        </div>
 
-        <div class="modal-wrapper">
-          <label class="modal-label" for="email">Електронна пошта</label>
-          <div class="modal-field">
-            <input
-              class="modal-input"
-              type="email"
-              id="email"
-              name="email"
-              placeholder="hello@ecotote.com"
-            />
+          <div class="modal-wrapper">
+            <label class="modal-label" for="email">Електронна пошта</label>
+            <div class="modal-field">
+              <input
+                class="modal-input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="hello@ecotote.com"
+                required
+                pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+              />
+              <div class="error-message">Error text</div>
+            </div>
           </div>
-        </div>
 
-        <div class="modal-wrapper box-comment">
-          <label class="modal-label" for="user-comment">Повідомлення </label>
-          <textarea
-            class="modal-textarea"
-            name="user-comment"
-            id="user-comment"
-            placeholder="Введіть своє повідомлення..."
-          ></textarea>
-        </div>
+          <div class="modal-wrapper">
+            <label class="modal-label" for="user-comment">Повідомлення </label>
+            <textarea
+              class="modal-textarea"
+              name="user-comment"
+              id="user-comment"
+              maxlength="500"
+              placeholder="Введіть своє повідомлення..."
+            ></textarea>
+          </div>
 
-        <button class="modal-submit-btn" type="submit">Надіслати</button>
-      </form>
+          <button class="btn" type="submit">Надіслати</button>
+        </form>
+      </div>
+
+      <picture>
+        <source
+          media="(min-width: 1440px)"
+          srcset="
+            ./img/support/support-desktop-img-min.jpg    1x,
+            ./img/support/support-desktop-img@2x-min.jpg 2x
+          "
+        />
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/support/support-tab-img-min.jpg    1x,
+            ./img/support/support-tab-img@2x-min.jpg 2x
+          "
+        />
+
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/support/support-mob-img-min.jpg    1x,
+            ./img/support/support-mob-img@2x-min.jpg 2x
+          "
+        />
+        <img
+          class="support-photo"
+          src="./img/support/support-desktop-img-min.jpg"
+          alt="bag-studio"
+          width="644"
+        />
+      </picture>
     </div>
     <picture>
       <source
