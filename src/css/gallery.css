@@ -53,11 +53,11 @@
   }
 
   .gallery-item {
-    border-radius: 16px;
+    border-radius: 11%;
     overflow: hidden;
 
     @media screen and (min-width: 768px) {
-      border-radius: 32px;
+      border-radius: 43px;
     }
 
     img {
