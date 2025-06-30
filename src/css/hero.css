@@ -17,6 +17,7 @@
 }
 
 .hero-title {
+  margin-bottom: 0;
   font-family: var(--second-family);
   font-weight: 700;
   font-size: 40px;
