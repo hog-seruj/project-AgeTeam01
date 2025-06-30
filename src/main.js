@@ -29,9 +29,14 @@ const popupToggle = () => {
         el.addEventListener('click', ev => {
           ev.preventDefault();
           closePopups();
-          popup.classList.remove('is-open');
         });
       });
+
+    document.querySelectorAll('.mobile-menu a').forEach(el => {
+      el.addEventListener('click', ev => {
+        closePopups();
+      });
+    });
   });
 };
 popupToggle();
