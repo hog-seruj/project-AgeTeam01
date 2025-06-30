@@ -1,8 +1,8 @@
-<section class="section support">
-  <div class="container support-content">
-          <div class="support-wrapper">
-        <h2 class="section-title">Залишились питання? Зв'яжіться з нами!</h2>
-        <p>Ми тут, щоб допомогти!</p>
+<section id="support" class="section">
+  <div class="container">
+    <div class="support-wrapper">
+      <h2 class="secton-title">Залишились питання? Зв'яжіться з нами!</h2>
+      <p>Ми тут, щоб допомогти!</p>
 
         <form autocomplete="off">
           <div class="modal-wrapper">
@@ -86,5 +86,36 @@
         />
       </picture>
     </div>
+    <picture>
+      <source
+        media="(min-width: 1440px)"
+        srcset="
+          ./img/support/support-desktop-img-min.jpg    1x,
+          ./img/support/support-desktop-img@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./img/support/support-tab-img-min.jpg    1x,
+          ./img/support/support-tab-img@2x-min.jpg 2x
+        "
+      />
+
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./img/support/support-mob-img-min.jpg    1x,
+          ./img/support/support-mob-img@2x-min.jpg 2x
+        "
+      />
+      <img
+        class="support-photo"
+        src="./img/support/support-desktop-img-min.jpg"
+        alt="bag-studio"
+        width="644"
+      />
+    </picture>
   </div>
 </section>

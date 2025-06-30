@@ -1,6 +1,7 @@
 .gallery {
   display: grid;
   gap: 16px;
+  justify-content: center;
 
   @media screen and (min-width: 768px) {
     grid-template-columns: repeat(2, 1fr);
@@ -53,11 +54,11 @@
   }
 
   .gallery-item {
-    border-radius: 16px;
+    border-radius: 11%;
     overflow: hidden;
 
     @media screen and (min-width: 768px) {
-      border-radius: 32px;
+      border-radius: 43px;
     }
 
     img {
@@ -69,14 +70,5 @@
         transform: scale(1.1);
       }
     }
-  }
-
-  &::after {
-    content: 'GH page text';
-    display: block;
-    color: red;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #ccc;
   }
 }

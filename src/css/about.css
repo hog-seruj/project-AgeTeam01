@@ -1,31 +1,94 @@
 .about {
-    padding: 64px 0;
-    color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 348px;
+  padding: 64px 0;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(../img/about/about-mob.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about .container {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media screen and (min-resolution: 2x) {
-    .about {
-background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url(../img/about/about-mob-2x.jpg);
-    }
+  .about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-mob-2x.jpg);
+  }
 }
 
 .about .section-header {
-    text-align: center;
-    max-width: 768px;
-    margin: 0 auto;
+  text-align: center;
+  max-width: 768px;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .about .section-title {
-    text-align: center;
+  text-align: center;
 }
 
 .about-text {
-    max-width: 288px;
+  max-width: 288px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    height: 325px;
+    padding: 80px 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-tab.jpg);
+  }
+
+  .about-text {
+    max-width: 573px;
+    font-size: 18px;
+  }
+  .about-bold {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .about .section-title {
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 2x) {
+  .about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-tab-2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .about {
+    height: 462px;
+    padding-top: 112px;
+    padding-bottom: 94px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-desktop.jpg);
+  }
+  .about-bold {
+    line-height: 1.5;
+  }
+  .about .section-title {
+    font-size: 56px;
+    max-width: 629px;
+  }
+}
+@media screen and (min-width: 1158px) and (min-resolution: 2x) {
+  .about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url(../img/about/about-desktop-2x.jpg);
+  }
 }
