@@ -112,6 +112,15 @@
     margin-top: auto;
     margin-bottom: 128px;
   }
+
+  .burger-btn {
+    padding: 20px 0;
+  }
+
+  .burger-icon {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
