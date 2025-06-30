@@ -14,19 +14,29 @@
 
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --second-family: 'Comfortaa', sans-serif;
+  --header-mobile-height: 64px;
+  --header-height: 72px;
 }
+
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
+  padding-top: var(--header-mobile-height);
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
   background: #ebf8ed;
+  position: relative;
+  scroll-padding-top: 79px;
+
+  @media screen and (min-width: 1440px) {
+   padding-top: var(--header-height);
+  }    
 }
 
 h1,
