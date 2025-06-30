@@ -9,6 +9,11 @@
   align-content: space-between;
 }
 
+.card picture {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .card-list {
     grid-template-columns: repeat(2, 1fr);
