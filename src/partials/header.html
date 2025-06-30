@@ -7,12 +7,12 @@
         </svg>
       </a>
       <ul class="header-list">
-        <li class="header-item"><a class="header-link" href="">Про нас</a></li>
-        <li class="header-item"><a class="header-link" href="">Переваги</a></li>
-        <li class="header-item"><a class="header-link" href="">Асортимент</a></li>
-        <li class="header-item"><a class="header-link" href="">Галерея</a></li>
-        <li class="header-item"><a class="header-link" href="">Відгуки</a></li>
-        <li class="header-item"><a class="header-link" href="">Контакти</a></li>
+        <li class="header-item"><a class="header-link" href="#about">Про нас</a></li>
+        <li class="header-item"><a class="header-link" href="#advantages">Переваги</a></li>
+        <li class="header-item"><a class="header-link" href="#assortment">Асортимент</a></li>
+        <li class="header-item"><a class="header-link" href="#gallery">Галерея</a></li>
+        <li class="header-item"><a class="header-link" href="#feedbacks">Відгуки</a></li>
+        <li class="header-item"><a class="header-link" href="#support">Контакти</a></li>
       </ul>
     </nav>
       <address class="header-contacts">
@@ -22,15 +22,13 @@
         </ul>
       </address>
 
-      <button class="burger-btn" type="button"><svg class="burger-icon" width="32" height="32">
-        <use href="./img/sprite.svg#icon-hamburger"></use>
-      </svg></button>
+      <button class="burger-btn" type="button" data-popup-button-toggle="mobile-menu">
+        <svg class="burger-icon" width="32" height="32">
+          <use href="./img/sprite.svg#icon-hamburger"></use>
+        </svg>
+      </button>
 
-      <button class="burger-btn-tab" type="button"><svg class="burger-icon" width="24" height="24">
-        <use href="../img/sprite.svg#icon-hamburger"></use>
-      </svg></button>
-
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-popup-name="mobile-menu">
         <div class="container mobile-menu-container">
           <div class="logo-mob">
             <a class="site-logo" href="./index.html" aria-label="Site logo">
@@ -38,20 +36,20 @@
             <use href="{=$icon-path}"></use>
                     </svg>
                   </a>
-            <button class="mobile-menu-cross" type="button">
+            <button class="mobile-menu-cross" type="button" data-popup-button-close="mobile-menu">
               <svg class="mobile-icon-cross" width="15" height="15">
-              <use href="../img/sprite.svg#icon-close"></use>
+              <use href="./img/sprite.svg#icon-close"></use>
             </svg>
             </button>
           </div>
           <nav class="mobile-nav">
             <ul class="mobile-list">
-              <li class="mobile-item"><a class="mobile-link" href="">Про нас</a></li>
-              <li class="mobile-item"><a class="mobile-link" href="">Переваги</a></li>
-              <li class="mobile-item"><a class="mobile-link" href="">Асортимент</a></li>
-              <li class="mobile-item"><a class="mobile-link" href="">Галерея</a></li>
-              <li class="mobile-item"><a class="mobile-link" href="">Відгуки</a></li>
-              <li class="mobile-item"><a class="mobile-link" href="">Контакти</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#about">Про нас</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#advantages">Переваги</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#assortment">Асортимент</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#gallery">Галерея</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#feedbacks">Відгуки</a></li>
+              <li class="mobile-item"><a class="mobile-link" href="#support">Контакти</a></li>
             </ul>
           </nav>
           <address class="mobile-adress">
