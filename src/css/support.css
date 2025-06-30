@@ -46,7 +46,7 @@ input:valid {
   border-color: rgba(3, 10, 6, 0.15);
 }
 
-input:invalid {
+input:user-invalid {
   border-color: #d64040;
   color: #d64040;
 }
@@ -71,7 +71,7 @@ input:required {
     transition: var(--transition);
   }
 
-  input:invalid + .error-message {
+  input:user-invalid + .error-message {
     opacity: 1;
     visibility: visible;
     display: inline-block;
