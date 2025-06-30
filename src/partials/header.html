@@ -22,15 +22,13 @@
         </ul>
       </address>
 
-      <button class="burger-btn" type="button"><svg class="burger-icon" width="32" height="32">
-        <use href="./img/sprite.svg#icon-hamburger"></use>
-      </svg></button>
+      <button class="burger-btn" type="button" data-popup-button-toggle="mobile-menu">
+        <svg class="burger-icon" width="32" height="32">
+          <use href="./img/sprite.svg#icon-hamburger"></use>
+        </svg>
+      </button>
 
-      <button class="burger-btn-tab" type="button"><svg class="burger-icon" width="24" height="24">
-        <use href="./img/sprite.svg#icon-hamburger"></use>
-      </svg></button>
-
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu" data-popup-name="mobile-menu">
         <div class="container mobile-menu-container">
           <div class="logo-mob">
             <a class="site-logo" href="./index.html" aria-label="Site logo">
@@ -38,7 +36,7 @@
             <use href="{=$icon-path}"></use>
                     </svg>
                   </a>
-            <button class="mobile-menu-cross" type="button">
+            <button class="mobile-menu-cross" type="button" data-popup-button-close="mobile-menu">
               <svg class="mobile-icon-cross" width="15" height="15">
               <use href="./img/sprite.svg#icon-close"></use>
             </svg>
