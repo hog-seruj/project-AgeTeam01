@@ -53,3 +53,22 @@
 .btn-small {
   padding: 8px 20px;
 }
+ 
+a {
+  color: #030a06;
+
+  &:hover,
+  &:focus {
+    opacity: 0.5;
+  }
+
+  &:disabled,
+  &[disabled] {
+    opacity: 0.2;
+  }
+
+  &:active {
+    color: #113916;
+    opacity: 0.6;
+  }
+}

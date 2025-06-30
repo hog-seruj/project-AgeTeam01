@@ -14,7 +14,6 @@
   height: 121px;
   margin-top: 48px;
   margin: 48px auto;
-      
 }
 
 .footer-nav-list {
@@ -22,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 32px;
-  margin-bottom: 48px;  
+  margin-bottom: 48px;
 }
 
 .footer-nav-list-item:hover,
@@ -37,10 +36,15 @@
   margin-bottom: 48px;
 }
 
+.footer-networks-link .footer-networks-item {
+  transition: var(--transition);
+}
 
-.footer-networks-item:hover,
-.footer-networks-item:focus {
-  transform: scale(1.1);
+.footer-networks-link:hover,
+.footer-networks-link:focus-visible {
+  .footer-networks-item {
+    transform: scale(1.1);
+  }
 }
 
 .footer-adress-list {
@@ -56,7 +60,7 @@
 }
 
 .footer-desc {
- padding-bottom: 64px;
+  padding-bottom: 64px;
 }
 
 .footer-container-bottom {
@@ -69,9 +73,7 @@ padding-top: 24px;
 
 
 
-
 @media screen and (min-width: 768px) {
-
   .footer-logo {
     width: 164px;
     height: 70px;
@@ -91,7 +93,6 @@ padding-top: 24px;
   .footer-networks-item {
     height: 40px;
     width: 40px;
-
   }
 
   .footer-adress-list {
@@ -119,13 +120,10 @@ padding-top: 24px;
 
   .footer-logo {
     margin-top: auto;
-
-    }
+  }
 
   .footer-networks-item {
     height: 24px;
     width: 24px;
-  
   }
-
 }
