@@ -1,10 +1,17 @@
 .header {
   background-color: #75d281;
-  padding: 13px 0;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 1000;
 }
+
+.section {
+  min-height: 100vh;
+  padding: 80px 20px 20px;
+}
+
 .header-container {
   display: flex;
   align-items: center;
@@ -22,6 +29,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 16px 0;
   transition: var(--transition);
 
   &:hover,
@@ -109,11 +117,6 @@
     margin-top: auto;
     margin-bottom: 128px;
   }
-
-  .burger-btn svg {
-    width: 24px;
-    height: 24px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -128,11 +131,8 @@
   }
 
   .site-logo {
+    padding: 13px 0;
     margin-right: 175px;
-  }
-
-  .burger-btn {
-    display: none;
   }
 
   .header-list {
@@ -143,13 +143,27 @@
 
   .header-link {
     padding: 23px 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .adress-link {
+    padding: 23px 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .nav-header {
+    display: flex;
+    align-items: center;
+  }
+
+  .burger-btn {
+    display: none;
   }
 
   .header-contacts {
     margin-left: auto;
-  }
-
-  .header-contacts {
     display: block;
   }
 
