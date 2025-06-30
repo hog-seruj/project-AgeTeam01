@@ -16,6 +16,10 @@
   --second-family: 'Comfortaa', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -116,3 +120,4 @@ address {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
