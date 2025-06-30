@@ -24,7 +24,6 @@
   line-height: 120%;
   letter-spacing: 0.01em;
   color: var(--color-scheme-2-text);
-  margin-bottom: 24px;
   text-align: left;
 }
 
@@ -100,7 +99,6 @@
 
   .hero-title {
     font-size: 56px;
-    margin-bottom: 32px;
   }
 
   .hero-par {
