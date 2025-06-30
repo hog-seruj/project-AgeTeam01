@@ -19,25 +19,23 @@
   --header-height: 72px;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  padding-top: var(--header-mobile-height);
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  padding-top: var(--header-mobile-height);
   background: #ebf8ed;
   position: relative;
-  scroll-padding-top: 79px;
 
   @media screen and (min-width: 1440px) {
-   padding-top: var(--header-height);
-  }    
+    padding-top: var(--header-height);
+  }
 }
 
 h1,
