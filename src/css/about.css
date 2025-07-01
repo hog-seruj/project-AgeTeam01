@@ -19,17 +19,6 @@
   padding-right: 0;
 }
 
-.no-gap {
-    gap: 0;
-}
-
-.section-title-small {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 12px;
-}
 
 .section-title-about {
     font-family: "Comfortaa", sans-serif;   
@@ -78,7 +67,7 @@
     max-width: 573px;
     font-size: 18px;
   }
-  .section-title-small {
+  .section-title--small {
     margin-bottom: 16px;
   }
 
@@ -94,7 +83,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .about {
     height: 462px;
     padding-top: 112px;
@@ -102,7 +91,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../img/about/about-desktop.webp);
   }
-  .section-title-small {
+  .section-title--small {
     line-height: 1.5;
   }
   .section-title-about {
