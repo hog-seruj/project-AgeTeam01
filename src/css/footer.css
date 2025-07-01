@@ -11,11 +11,6 @@
   text-align: center;
 }
 
-/* .footer-logo {
-  margin-top: 48px;
-  margin: 48px auto;
-} */
-
 .footer-nav-list {
   display: flex;
   flex-direction: column;
@@ -37,10 +32,6 @@
 .footer-nav-container {
   margin-bottom: 48px;
 }
-
-/* .footer-networks-link {
-  margin-bottom: 48px;
-} */
 
 .footer-networks-link .footer-networks-item {
   transition: var(--transition);
@@ -68,9 +59,6 @@
   margin-bottom: 24px;
 }
 
-/* .footer-desc {
-  padding-bottom: 64px;
-} */
 
 .footer-desc-container-top {
   margin-bottom: 48px;
@@ -79,29 +67,37 @@
 .footer-container-bottom {
 
 border-top: 1px solid rgba(3, 10, 6, 0.15);
-/* width: 280px;
-margin: 0 auto; */
 padding-top: 24px;
 }
 
-
-
 @media screen and (min-width: 768px) {
+  
+  .footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  
+  
   .footer-logo {
     width: 164px;
     height: 70px;
-    margin-top: 64px;
+  
+  }
+
+  .footer-networks-link-logo {
     margin-bottom: 32px;
   }
 
   .footer-nav-list {
     flex-direction: row;
-    margin-bottom: 32px;
   }
 
-  .footer-networks-list {
-    margin-bottom: 24px;
+  .footer-nav-container {
+    margin-bottom: 32px;
   }
+ 
+  .footer-desc-container-top {
+    margin-bottom: 24px; }
 
   .footer-networks-item {
     height: 40px;
@@ -112,8 +108,10 @@ padding-top: 24px;
     flex-direction: row;
     justify-content: center;
     gap: 32px;
-    margin-bottom: 16px;
   }
+
+  .footer-contact-info {
+    margin-bottom: 16px; }
 
   .footer-container-bottom {
     width: 100%;
@@ -122,18 +120,26 @@ padding-top: 24px;
 }
 
 @media screen and (min-width: 1440px) {
+  
+  .footer {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+
   .footer-desc-container-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 80px;
     margin-bottom: 52px;
   }
 
-  .footer-logo {
-    margin-top: auto;
+  .footer-networks-link-logo {
+    margin-bottom: 0;
   }
+
+  .footer-nav-container {
+    margin-bottom: 0; }
 
   .footer-networks-item {
     height: 24px;
