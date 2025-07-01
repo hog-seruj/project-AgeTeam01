@@ -22,15 +22,24 @@
     <link rel="stylesheet" href="/css/styles.css" />
     <link
       rel="preload"
-      href="bg-image-narrow.png"
+      href="./img/hero/hero-min-mob.webp"
       as="image"
-      media="(max-width: 600px)"
+      imagesrcset="./img/hero/hero-min-mob.webp 1x, ./img/hero/hero-min-mob2.webp 2x"
+      media="(max-width: 767px)"
     />
     <link
       rel="preload"
-      href="bg-image-wide.png"
+      href="./img/hero/hero-min-tab.webp"
       as="image"
-      media="(min-width: 601px)"
+      imagesrcset="./img/hero/hero-min-tab.webp 1x, ./img/hero/hero-min-tab2.webp 2x"
+      media="(min-width: 768px)"
+    />
+    <link
+      rel="preload"
+      href="./img/hero/hero-min.webp"
+      as="image"
+      imagesrcset="./img/hero/hero-min.webp 1x, ./img/hero/hero-min2.webp 2x"
+      media="(min-width: 1440px)"
     />
     <script defer type="module" src="./main.js"></script>
   </head>
