@@ -29,6 +29,10 @@
   justify-content: center;
 }
 
+.footer-networks-link-logo {
+  margin-bottom: 48px;
+}
+
 .footer-nav-container {
   margin-bottom: 48px;
 }
