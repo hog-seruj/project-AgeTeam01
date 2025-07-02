@@ -4,6 +4,7 @@
   justify-content: center;
   height: 348px;
   padding: 64px 0;
+  gap: 0;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -17,6 +18,18 @@
   padding-left: 0;
   padding-right: 0;
 }
+
+
+.section-title-about {
+    font-family: "Comfortaa", sans-serif;   
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 @media screen and (min-resolution: 2x) {
   .about {
@@ -36,7 +49,7 @@
   text-align: center;
 }
 
-.about-text {
+.about .about-text {
   max-width: 288px;
   text-align: center;
   line-height: 1.6;
@@ -50,16 +63,13 @@
       url(../img/about/about-tab.webp);
   }
 
-  .about-text {
+  .about .about-text {
     max-width: 573px;
     font-size: 18px;
   }
-  .about-bold {
-    font-weight: 600;
-    margin-bottom: 4px;
-  }
-  .about .section-title {
-    margin-bottom: 12px;
+
+  .section-title-about {
+    margin-bottom: 24px;
   }
 }
 
@@ -70,7 +80,7 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1440px) {
   .about {
     height: 462px;
     padding-top: 112px;
@@ -78,10 +88,8 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../img/about/about-desktop.webp);
   }
-  .about-bold {
-    line-height: 1.5;
-  }
-  .about .section-title {
+
+  .section-title-about {
     font-size: 56px;
     max-width: 629px;
   }
