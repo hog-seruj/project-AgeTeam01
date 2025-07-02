@@ -81,4 +81,5 @@
 
 .section-header--nogap {
   gap: 0;
+  padding-bottom: 0;
 }
