@@ -67,7 +67,7 @@ input:user-invalid {
     transition: var(--transition);
   }
 
-  .modal-field input:user-invalid ~ .error-message {
+  input:user-invalid ~ .error-message {
     opacity: 1;
     visibility: visible;
     display: inline-block;
