@@ -67,9 +67,6 @@
     max-width: 573px;
     font-size: 18px;
   }
-  .section-title--small {
-    margin-bottom: 16px;
-  }
 
   .section-title-about {
     margin-bottom: 24px;
@@ -91,9 +88,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
       url(../img/about/about-desktop.webp);
   }
-  .section-title--small {
-    line-height: 1.5;
-  }
+
   .section-title-about {
     font-size: 56px;
     max-width: 629px;
