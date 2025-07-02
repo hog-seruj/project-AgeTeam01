@@ -1,7 +1,19 @@
+.advant-container {
+  gap: 0;
+  margin-bottom: 48px;
+}
 
+.container.advantages {
+  gap: 0;
+}
+
+.section-sub-title {
+  font-weight: 600;
+}
 
 .advant-title {
-    margin-bottom: 8px;
+  margin-top: 12px;
+  margin-bottom: 20px;
 }
 
 .advant-list {
@@ -30,6 +42,14 @@
 
 @media screen and (min-width: 768px) {
 
+  .advant-container {
+      margin-bottom: 32px; 
+    }
+
+    .advant-title {
+      margin-top: 16px;
+      margin-bottom: 24px;
+    }
 
   .advant-list {
     grid-template-columns: repeat(2, 1fr);
@@ -64,6 +84,8 @@
 
     .advant-container {
         max-width: 768px;
+        padding-bottom: 0;
+        margin-bottom: 80px;
     }
 
     .advant-list-title, .advant-item:nth-child(2) .advant-list-title {
