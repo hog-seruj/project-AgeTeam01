@@ -7,10 +7,6 @@
   gap: 0;
 }
 
-.section-sub-title {
-  font-weight: 600;
-}
-
 .advant-title {
   margin-top: 12px;
   margin-bottom: 20px;
@@ -20,7 +16,6 @@
   display: grid;
   gap: 48px;
 }
-
 
 .advant-img {
   border-radius: 32px;
@@ -41,15 +36,14 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .advant-container {
-      margin-bottom: 32px; 
-    }
+    margin-bottom: 32px;
+  }
 
-    .advant-title {
-      margin-top: 16px;
-      margin-bottom: 24px;
-    }
+  .advant-title {
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
 
   .advant-list {
     grid-template-columns: repeat(2, 1fr);
@@ -70,33 +64,30 @@
   }
 
   .advant-list-title {
-      margin-bottom: 8px;
+    margin-bottom: 8px;
   }
 
   .advant-item:nth-child(2) .advant-list-title {
-      margin-bottom: 42px; 
-    }
-
-
+    margin-bottom: 42px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .advant-container {
+    max-width: 768px;
+    padding-bottom: 0;
+    margin-bottom: 80px;
+  }
 
-    .advant-container {
-        max-width: 768px;
-        padding-bottom: 0;
-        margin-bottom: 80px;
-    }
-
-    .advant-list-title, .advant-item:nth-child(2) .advant-list-title {
-        margin-bottom: 24px;
-    }
+  .advant-list-title,
+  .advant-item:nth-child(2) .advant-list-title {
+    margin-bottom: 24px;
+  }
 
   .advant-list {
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
   }
-
 
   .advant-item:nth-child(3n) {
     grid-column: auto;
