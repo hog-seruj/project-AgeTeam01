@@ -1,5 +1,12 @@
 :root {
-  font-family: "Fira Sans", sans-serif;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-long: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  --main-font-family: 'Fira Sans', sans-serif;
+  --second-family: 'Comfortaa', sans-serif;
+  --header-mobile-height: 64px;
+  --header-height: 72px;
+
+  font-family: var(--main-font-family);
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -8,12 +15,6 @@
   background-color: rgba(255, 255, 255, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-long: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  --second-family: "Comfortaa", sans-serif;
-  --header-mobile-height: 64px;
-  --header-height: 72px;
 }
 
 html {
