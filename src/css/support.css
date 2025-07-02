@@ -75,6 +75,7 @@ input:user-invalid {
 }
 
 .modal-textarea {
+  display: block;
   resize: none;
   border: 1px solid rgba(3, 10, 6, 0.15);
   border-radius: 6px;
