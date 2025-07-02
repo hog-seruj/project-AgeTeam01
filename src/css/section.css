@@ -23,11 +23,13 @@
 .section-title {
   text-align: center;
 }
+
 .section-sub-title {
   font-weight: 600;
 }
+
 .section-title--small {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: var(--main-font-family);
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;

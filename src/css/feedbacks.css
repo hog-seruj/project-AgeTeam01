@@ -16,11 +16,9 @@
   line-height: 140%;
   letter-spacing: 0.01em;
   color: #030a06;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
-.author {
+.feedbacks-link .author {
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
@@ -28,14 +26,16 @@
 }
 
 .container-feedbacks {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
-.stars {
+.feedbacks-link .stars {
   display: flex;
 }
 
-.icons-feedbacks {
+.feedbacks-link .icons-feedbacks {
   fill: #75d281;
 }
 
@@ -44,6 +44,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .container-feedbacks {
+    gap: 24px;
+  }
+
   .feedbacks-list {
     display: flex;
     align-items: flex-start;
