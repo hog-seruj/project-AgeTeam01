@@ -1,4 +1,11 @@
-# Vanilla App Template
+# EcoTote - brand site template
+
+## Technologies
+- Html
+- Css
+- Javascript
+
+## Vanilla App Template
 
 Цей проект було створено за допомогою Vite. Для знайомства та налаштування
 додаткових можливостей [звернись до документації](https://vitejs.dev/).
